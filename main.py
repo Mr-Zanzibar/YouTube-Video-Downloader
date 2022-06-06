@@ -10,6 +10,6 @@ yt = YouTube(link)
 
 ys = yt.streams.get_highest_resolution()
 ys.download()
-print(f" ")
+print(f' ')
 print(color.GREEN + f' Download Completed!')
-print(f" ")
+print(f' ')
