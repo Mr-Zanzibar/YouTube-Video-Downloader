@@ -1,8 +1,9 @@
 class color:
    GREEN = '\033[92m'
-   
+
+
+import colorama   
 from pytube import YouTube
-from colorama import init
 
 
 link = input('Enter a YouTube link: ')
