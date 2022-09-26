@@ -5,6 +5,8 @@ class color:
 import colorama   
 from pytube import YouTube
 
+colorama.init() # forgot this lol
+
 
 link = input('Enter a YouTube link: ')
 yt = YouTube(link)
