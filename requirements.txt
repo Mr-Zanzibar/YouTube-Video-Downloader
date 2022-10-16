@@ -1,2 +1,2 @@
-colorama
-pytube
+colorama==0.4.5
+pytube==12.1.0
